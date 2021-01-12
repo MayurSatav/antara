@@ -1,9 +1,25 @@
-import React, { Component } from 'react'
+import React, {useState, useEffect} from 'react'
+import axios from 'axios'
 
-export class Category extends Component {
-    render() {
-        return (
-            <div>
+
+export default function Category() {
+
+    const [songs, setSongs] = useState([])
+
+    useEffect(()=>{
+        axios.get('http://localhost:5555/api/songs')
+        .then(res => {
+            console.log(res)
+            setSongs(res.data)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }, [])
+
+
+    return (
+        <div>
             <section class="playlist-section spad">
                 <div class="container-fluid">
                     
@@ -19,6 +35,14 @@ export class Category extends Component {
                     </div>                                              
                     <div class="clearfix"></div>
                     <div class="row playlist-area">
+                        {songs.map(song => 
+                         <div key={song.id} class="mix col-lg-2 col-md-4 col-sm-6">
+                            <div class="playlist-item">
+                                <img src={song.ArtistPath} alt=""/>
+                                <h5>{song.SongName}</h5>
+                            </div>
+                        </div>)
+                        }
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
                                 <img src="./img/lenka.jpg" alt=""/>
@@ -91,8 +115,5 @@ export class Category extends Component {
             </section>
 
             </div>
-        )
-    }
+    )
 }
-
-export default Category
