@@ -43,7 +43,7 @@ class SongDetails extends Component {
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <a class="dropdown-item" href="#"  onClick={()=>{this.handleCart('s30')}}>Add to Cart</a>
-                                    <a class="dropdown-item" href="#" onClick={()=>{this.handleWishlist('s30')}}>Add to Wishlist</a>
+                                    <a class="dropdown-item" href="#" onClick={()=>{this.handleWishlist('s31')}}>Add to Wishlist</a>
                                     <a class="dropdown-item" href="#">Add in playlist</a>
                                     <a class="dropdown-item" href="#">Share</a>
                                 </div>

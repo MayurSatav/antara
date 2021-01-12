@@ -1,23 +1,20 @@
-import React, { Component } from 'react'
-import {fetchWishlist} from './WishlistRedux/actions/wishlistActions'
+import React, { useEffect } from 'react'
 import {connect} from 'react-redux'
-import { render } from '@testing-library/react';
+import {fetchWishlist,deleteFromWishlist} from './WishlistRedux/actions/wishlistActions'
+
 
 export class Wishlist extends React.Component{
-    //  totalAmount=this.props.total+10;
-    // handleDelete=(id)=>{
-    //     this.props.deleteFromCart(id);
-    // } 
-    // handleDeletePl=(id)=>{
-    //     this.props.deleteFromPlaylistCart(id);
-    // }
+    handleDelete=(id)=>{
+        this.props.deleteFromWishlist(id);
+    } 
+  
     componentDidMount(){
         this.props.fetchWishlist()
     }
       render(){ 
-      const songs = this.props.State.wish.length ?
+      const wishlistsongs = this.props.wishlistState.wishlist.length ?
          ( 
-            this.props.State.wish.map(song=>{
+            this.props.wishlistState.wishlist.map(song=>{
                 return(
                     <tr>
                     <th scope="row" class="border-0">
@@ -33,35 +30,18 @@ export class Wishlist extends React.Component{
                     </td>
                     <td class="border-0 align-middle"><strong>{song.Price}</strong></td>
                     <td class="border-0 align-middle"><strong>{song.Album}</strong></td>
-                    {/* <td class="border-0 align-middle" onClick={()=>{this.handleDelete(song.SongId)}}><a href="#" class="text-dark"><i class="fa fa-trash"  ></i></a></td> */}
+                    <td class="border-0 align-middle" onClick={()=>{this.handleDelete(song.SongId)}}><a href="#" class="text-dark"><i class="fa fa-trash"  ></i></a></td>
                 </tr>
                                              
                 )
+               
             })
         ):
         
          (
             // <p>Nothing.</p>
-            <p></p>
-         );
-        //  let cartPlayList= this.props.playlist.map(pl=>{
-        //     return(
-        //         <tr>
-        //         <th scope="row" class="border-0">
-        //         <div class="p-2">
-        //             {pl.image}
-        //             <div class="ml-3 d-inline-block align-middle">
-        //             <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">{pl.name}</a></h5><span class="text-muted font-weight-normal font-italic d-block">{pl.category}</span>
-        //             </div>
-        //         </div>
-        //         </th>
-        //         <td class="border-0 align-middle"><strong>{pl.price}</strong></td>
-        //         <td class="border-0 align-middle"><strong>{pl.language}</strong></td>
-        //         <td class="border-0 align-middle"><a href="#" class="text-dark" onClick={()=>{this.handleDeletePl(pl.id)}}><i class="fa fa-trash"></i></a></td>
-        //     </tr>
-                                         
-        //     )
-        // });
+            <p>Nothing</p>
+         ); 
         return (
             <div>
 
@@ -95,43 +75,8 @@ export class Wishlist extends React.Component{
                                     </thead>
                                     
                                     <tbody>
-                                    <tr>
-                                        <th scope="row" class="border-0">
-                                        <div class="p-2">
-                                            <img src="./images/main/1.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
-                                            <div class="ml-3 d-inline-block align-middle">
-                                            <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Song Name</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category</span>
-                                            </div>
-                                        </div>
-                                        </th>
-                                        <td>
-                                            <audio id="player" src="horse.mp3" controls controlsList="nodownload"></audio>
-                                        </td>
-                                        <td class="border-0 align-middle"><strong>₹79.00</strong></td>
-                                        <td class="border-0 align-middle"><strong>playlist1</strong></td>
-                                        <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                    <th scope="row">
-                                    <div class="p-2">
-                                        <img src="./images/main/2.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
-                                        <div class="ml-3 d-inline-block align-middle">
-                                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Song Name2</a></h5><span class="text-muted font-weight-normal font-italic">Category</span>
-                                        </div>
-                                    </div>
-                                    </th>
-                                    <td>
-                                        <audio id="player" src="horse.mp3" controls controlsList="nodownload"></audio>
-                                    </td>
-                                    <td class="align-middle"><strong>₹79.00</strong></td>
-                                    <td class="align-middle"><strong>Silent</strong></td>
-                                    <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
-                                    </td>
-                                </tr>
-                      
-                                {songs}
-                                    
-                                </tbody>
+                                        {wishlistsongs}
+                                    </tbody>
                                     
                                     </table>
                                 </div>
@@ -139,11 +84,16 @@ export class Wishlist extends React.Component{
                                 </div>
                             </div>
 
-                         </div>
-                         </div>
-                        </div>
+                          
+                                
+                                   
+                                    
+                                </div>
+                                </div>
+                            </div>
 
-                </div>
+                            </div>
+       
             
         )
     }
@@ -154,14 +104,8 @@ const mapStateToProps = (state)=>{
         // songs: state.SongList,
         // playlist:state.PlayListCart,
         // total:state.total
-        State : state.wishlist
+        wishlistState : state.wishlist
     }
 }
-// const mapDispatchToProps= (dispatch)=>{
-//     return{
-//     //    deleteFromCart: (id)=>{dispatch(deleteFromCart(id))},
-//     //    deleteFromPlaylistCart:(id)=>{dispatch(deleteFromPlaylistCart(id))},
-//     fetchCart: () => dispatch()
-//          }
-//     }
-export default connect(mapStateToProps,{fetchWishlist})(Wishlist)
+
+export default connect(mapStateToProps,{fetchWishlist,deleteFromWishlist})(Wishlist)
