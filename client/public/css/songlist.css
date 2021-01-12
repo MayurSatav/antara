@@ -1,0 +1,21 @@
+.playlist1-track-ctn{
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .playlist1-track-ctn:last-child{
+    border: 1px solid #ffc266;
+    border-radius:50px;
+  }
+  
+  .playlist1-track-ctn > div{
+    margin:10px;
+  }
+ .playlist1-info-track{
+    width: 100%;
+  }
+  .playlist1-info-track,.playlist1-duration{
+
+    font-size: 14px;
+    font-weight: bold;
+  }
