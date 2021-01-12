@@ -6,6 +6,8 @@ const songsCategoryControllers = require('../controllers/songs-category-controll
 
 const routes = express.Router()
 
+routes.get('/', songsCategoryControllers.GET_ALL_SONGS)
+
 routes.get('/cart/:userid', songsCartControllers.GET_CART)
 
 routes.post('/cart/:userid/:songid', songsCartControllers.ADD_TO_CART)
