@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {combineReducers, createStore,applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
 import CartReducer from './components/CartRedux/CartReducer'
-import Wishlistreducer from './components/WishlistRedux/WishlistReducer'
+import WishlistReducer from './components/WishlistRedux/WishlistReducer'
 import Playlistreducer from './components/PlaylistRedux/PlaylistReducer' 
 import { Provider } from 'react-redux'
 import { computeHeadingLevel } from '@testing-library/react';
@@ -52,7 +52,7 @@ import { computeHeadingLevel } from '@testing-library/react';
 const rootReducer = combineReducers({
    // login: loginReducer,
     cart: CartReducer,
-    wishlist:Wishlistreducer,
+    wishlist:WishlistReducer,
     playlist:Playlistreducer
    })
    

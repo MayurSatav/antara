@@ -89,14 +89,12 @@ const ADD_TO_CART = async (req, res, next) => {
 
 const DELETE_FROM_CART = async (req, res, next) => {
     //get the songid and userid
-    const {songid} = req.body
-    const userId = req.params.userid
-
+    const {songid,userid} = req.body
     //find the user and delete the song from cart
     let userDetails;
     let user
     try{
-       userDetails = await User.findByIdAndUpdate({_id:userId},{$pull: { cart: songid }})
+       userDetails = await User.findByIdAndUpdate({_id:userid},{$pull: { cart: songid }})
     } catch(err){
         const error = new HttpError('Something is wrong', 500)
         return next(error)
