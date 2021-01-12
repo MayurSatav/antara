@@ -21,67 +21,67 @@ export class Category extends Component {
                     <div class="row playlist-area">
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Live Concerts</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Dj Sets</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Recorded Live</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Oldies</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Rock & Roll</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Classic Music</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Rock</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Alternative</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Country</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6 artists">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>EDM</h5>
                             </div>
                         </div>
                         <div class="mix col-lg-2 col-md-4 col-sm-6 movies">
                             <div class="playlist-item">
-                                <img src="./images/lenka.jpg" alt=""/>
+                                <img src="./img/lenka.jpg" alt=""/>
                                 <h5>Pop Culture</h5>
                             </div>
                         </div>
