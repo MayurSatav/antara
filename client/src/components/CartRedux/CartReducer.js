@@ -14,12 +14,19 @@ const CartReducer = (state = initState, action) => {
           ...state,
           loading: true
         }
-      case FETCH_CART_SUCCESS:
+      case FETCH_CART_SUCCESS:{
+        let list=action.payload;
+        let newtotal=0;
+        list.map(song=>{
+          newtotal+=song.Price;
+        })
         return {
           loading: false,
           cartList: action.payload,
-          error: ''
+          error: '',
+          total:newtotal
         }
+      }
       case FETCH_CART_FAILURE:
         return {
           loading: false,
