@@ -327,7 +327,7 @@ export class Home extends Component {
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/SongImage/O_Saathi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/Song/O_Saathi.jpg"/>
                                                 </div>
                                             </div>
                                         </div>
