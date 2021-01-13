@@ -8,7 +8,7 @@ export class Welcome extends Component {
             <div class="container-fluid bg-dark  text-white" style={{width:"100%",height:"auto"}}>
                 <div class="row">
                     <div class="col-sm-5" style={{marginTop: "1%",marginLeft: "10%"}}>
-                        <h1 style={{fontSize: "110px",color:"#FC0254"}}><span>An♪ara</span> </h1>
+                        <h1 style={{fontSize: "110px",color:"#FC0254"}}>An<span class="antara">♪ </span>&nbsp;&nbsp;ara</h1>
                         <h1>For Everyone</h1>
         
                         <Link to = "./Home" type="button" class="btn explore" style={{borderRadius: "40px",backgroundColor: "#FC0254",color: "white"}}>

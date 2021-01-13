@@ -31,7 +31,7 @@ class CategoryDetails extends Component {
                     <div class="row">
                         <div class="col-sm-3" >
                             <div class="container" style={{width:"300px",height:"auto"}}>
-                                <img src="./images/songImage/Blue_Skies.jpg"  class="img-thumbnail" />
+                                <img src="./images/SongImage/Blue_Skies.jpg"  class="img-thumbnail" />
                             </div>
                             <br></br>
                             <div class="container">

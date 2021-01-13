@@ -77,7 +77,7 @@ export class Orders extends Component {
                            <tr>
                                <th scope="row" class="border-0">
                                <div class="p-2">
-                                   <img src="./images/main/1.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
+                                   <img src="./img/main/1.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
                                    <div class="ml-3 d-inline-block align-middle">
                                    <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Song Name</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category</span>
                                    </div>
@@ -96,7 +96,7 @@ export class Orders extends Component {
                            <tr>
                            <th scope="row">
                            <div class="p-2">
-                               <img src="./images/lenka.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
+                               <img src="./img/lenka.jpg" alt="" width="70" class="img-fluid rounded shadow-sm"/>
                                <div class="ml-3 d-inline-block align-middle">
                                <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Song Name2</a></h5><span class="text-muted font-weight-normal font-italic">Category</span>
                                </div>
