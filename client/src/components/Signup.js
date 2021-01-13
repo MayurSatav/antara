@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import TopNavWL from './TopNavWL';
 import Footer from './Footer';
 
-export class Singup extends Component {
+export class Signup extends Component {
   constructor(props) {
     super(props);
     this.state = { name2: '', email2: '', pass2: '', cpass2: '', errormessage1: '', errormessage2: '', errormessage3: '', errormessage4: '', input: {}, errors: {} };
@@ -150,6 +150,7 @@ export class Singup extends Component {
   render() {
     return (
       <div>
+
         <div class="card" style={{ margin: "0 auto", float: "none", marginTop: "5%", width: "30%" }}>
           <h1 class="text-center" style={{ fontSize: "80px", color: "#FC0254" }}><span>An♪ara</span> </h1>
           <div class="card-body">
@@ -230,4 +231,4 @@ export class Singup extends Component {
     )
   }
 }
-export default Singup
+export default Signup

@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-
 export class Settings extends Component {
-
+    
     constructor(props) {
         super(props)
         this.state = { name: '', email: null,password:null, errormessage: '' };
-    }
 
+    }
+ //http://localhost:5000/api/users/5ff9b0c99189ae146cb32401 
     submitHandler = (event) => {
         event.preventDefault();
         alert(this.state.name1 + " " + "Details Updated")

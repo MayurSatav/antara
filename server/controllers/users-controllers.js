@@ -4,7 +4,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const HttpError = require('../models/http-error')
-const User = require('../models/user')
+const User = require('../models/user');
+const { get } = require('../routes/songs-routes');
 
 const getUsers = async (req, res, next) => {
     let users
@@ -18,6 +19,23 @@ const getUsers = async (req, res, next) => {
       return next(error);
     }
     res.json({ users: users.map(user => user.toObject({ getters: true })) });
+  };
+
+  const getUserDetails = async (req, res, next) => {
+    let user
+   // let {userid}=req.body
+   let userid=req.params.userid;
+    try {
+      user = await User.findOne({_id:userid});
+    } catch (err) {
+      const error = new HttpError(
+        'Fetching users failed, please try again later.',
+        500
+      );
+      return next(error);
+    }
+    console.log(user);
+    res.json(user);
   };
 
 const signup = async (req, res, next) => {
@@ -153,3 +171,4 @@ const login = async (req, res, next) => {
 exports.getUsers = getUsers
 exports.signup = signup
 exports.login = login
+exports.getUserDetails=getUserDetails

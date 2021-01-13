@@ -3,6 +3,7 @@ const { check } = require('express-validator')
 const usersControllers = require('../controllers/users-controllers')
 const routes = express.Router()
 
+routes.get('/:userid', usersControllers.getUserDetails)
 //http://localhost:5000/api/users
 routes.get('/', usersControllers.getUsers)
 
