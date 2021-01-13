@@ -32,7 +32,11 @@ class CategoryDetails extends Component {
                     <div class="row">
                         <div class="col-sm-3" >
                             <div class="container" style={{width:"300px",height:"auto"}}>
-                                <img src="./imageDB/SongImg/Lenka/Blue_Skies.jpg"  class="img-thumbnail" />
+<<<<<<< HEAD
+                                <img src="./images/SongImage/Blue_Skies.jpg"  class="img-thumbnail" />
+=======
+                                <img src="./images/songImage/Blue_Skies.jpg"  class="img-thumbnail" />
+>>>>>>> c8dcfa08cf026d276a25a7fed031f282a49771fb
                             </div>
                             <br></br>
                             <div class="container">
