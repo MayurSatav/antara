@@ -21,12 +21,12 @@ export class Wishlist extends React.Component{
                     <div class="p-2">
                     <img src={song.SongPath} alt="Song3" width="70" class="img-fluid rounded shadow-sm"/>
                         <div class="ml-3 d-inline-block align-middle">
-                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">{song.SongName}</a></h5><span class="text-muted font-weight-normal font-italic d-block">Category: Watches</span>
+                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">{song.SongName}</a></h5><span class="text-muted font-weight-normal font-italic d-block">{song.Genres}</span>
                         </div>
                     </div>
                     </th>
                     <td>
-                            <audio id="player" src="horse.mp3" controls controlsList="nodownload"></audio>
+                            <audio id="player" src={song.AudioPath} controls controlsList="nodownload"></audio>
                     </td>
                     <td class="border-0 align-middle"><strong>{song.Price}</strong></td>
                     <td class="border-0 align-middle"><strong>{song.Album}</strong></td>
