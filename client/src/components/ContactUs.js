@@ -117,7 +117,7 @@ export class ContactUs extends Component {
     render() {
         return (
             <div>
-                <TopNavWL></TopNavWL>
+      
                 <div class="container">
                     <div class="row" style={{ marginTop: "8%", marginBottom: "3%", marginLeft: "60px" }}>
                         <div class="card  " style={{ width: "40%" }}>

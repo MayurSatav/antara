@@ -87,6 +87,20 @@ audio::-webkit-media-controls-panel {
                 background-color: white;          
 }
 
+.antara {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+ 
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(1);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
 
 
 </style>
@@ -112,5 +126,7 @@ audio::-webkit-media-controls-panel {
             );
         });
     </script>
+
+    
 </body>
 </html>

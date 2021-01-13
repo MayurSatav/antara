@@ -9,7 +9,7 @@ export class NotFound extends Component {
                 <div class="row">
                     <div class="col-md-12">
                         <div class="error-template" style={{ marginLeft: "25%"}}>
-                            <img src="./images/4042.JPG"  style={{ width: "70%"}}></img>
+                            <img src="./img/4042.JPG"  style={{ width: "70%"}}></img>
                             <h1>
                                 Oops!</h1>
                             <h2>

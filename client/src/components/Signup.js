@@ -27,27 +27,30 @@ export class Singup extends Component {
       this.setState({ pass2: '' })
 
       //alert('Registered Successfully')
+
+      try {
+        const response = await fetch("http://localhost:5000/api/users/signup",
+          {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              name: event.target.name.value,
+              email: event.target.email.value,
+              password: event.target.password.value
+            })
+          })
+        const responseData = await response.json()
+        //alert(responseData)
+        alert("Registered successfully")
+        console.log(responseData)
+      } catch (err) {
+        alert(err);
+      }
     }
 
-    try{
-      const response = await fetch("http://localhost:5000/api/users/signup", 
-      {method: 'POST',
-   headers: {
-       'Content-Type' : 'application/json'
-   },
-  body : JSON.stringify({
-          name : event.target.name.value,
-          email: event.target.email.value,
-          password : event.target.password.value
-      })
-  })
-  const responseData = await response.json()
-  //alert(responseData)
-  alert("Registered successfully")
-  console.log(responseData)
-  } catch (err){
-      alert(err);
-  }
+
 
   }
 
@@ -131,7 +134,7 @@ export class Singup extends Component {
     }
 
     if (nam1 === 'pass2') {
-      if (val1.length <= 6) {
+      if (val1.length < 6) {
         err3 = <p style={{ color: 'red' }}>Length should be greater than 6</p>
       }
     }
@@ -147,7 +150,7 @@ export class Singup extends Component {
   render() {
     return (
       <div>
-        <TopNavWL></TopNavWL>
+
         <div class="card" style={{ margin: "0 auto", float: "none", marginTop: "5%", width: "30%" }}>
           <h1 class="text-center" style={{ fontSize: "80px", color: "#FC0254" }}><span>An♪ara</span> </h1>
           <div class="card-body">
@@ -192,10 +195,10 @@ export class Singup extends Component {
                   class="form-control"
                   placeholder="Enter password"
                   id="password" />
-                  {this.state.errormessage3}
+                {this.state.errormessage3}
 
 
-                <div className="text-danger">{this.state.errors.pass2}</div>
+                
               </div>
 
               <div class="form-group">
@@ -209,7 +212,7 @@ export class Singup extends Component {
                   placeholder="Enter confirm password"
                   id="confirm_password" />
 
-                <div className="text-danger">{this.state.errors.cpass2}</div>
+                
               </div>
 
               <input type="submit" value="Submit" class="btn btn-primary btnClass" style={{ backgroundColor: "#FC0254", border: "none" }} />
@@ -223,7 +226,7 @@ export class Singup extends Component {
           </div>
         </div>
         <hr></hr>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>
     )
   }
