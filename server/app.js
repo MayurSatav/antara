@@ -35,7 +35,7 @@ app.use((error, req, res, next) => {
 })
 
 mongoose.connect('mongodb://antara123:antara123@antara-shard-00-00.nnbzs.mongodb.net:27017,antara-shard-00-01.nnbzs.mongodb.net:27017,antara-shard-00-02.nnbzs.mongodb.net:27017/Antara?ssl=true&replicaSet=atlas-i5nxpp-shard-0&authSource=admin&retryWrites=true&w=majority')
-.then(() => {app.listen(5555)})
+.then(() => {app.listen(5000)})
 .catch(err => {console.log(err)})
 
 // mongoose.connect('mongodb+srv://anjali:anjali@antara.irp3a.mongodb.net/antara?retryWrites=true&w=majority')
