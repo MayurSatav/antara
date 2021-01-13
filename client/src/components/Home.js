@@ -104,32 +104,32 @@ export class Home extends Component {
                                         <div class="row"> 
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lenka/Dont_Let_Me_Fall.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Dont_Let_Me_Fall.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                <Link to="./songlistasjson"><img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lenka/Blue_Skies.jpg"/></Link>
+                                                <Link to="./songlistasjson"><img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Blue_Skies.jpg"/></Link>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lenka/Heal.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Heal.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lenka/Roll_With_The_Punches.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Roll_With_The_Punches.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lenka/The_Show.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/The_Show.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/Time_of_my_Life.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Time_of_my_Life.jpg"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,27 +139,27 @@ export class Home extends Component {
                                     <div class="row"> 
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/Brothers.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Brothers.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/Ghost.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ghost.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/Raising_Heaven.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Raising_Heaven.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/She_likes_the_Wind.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/She_likes_the_Wind.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Patrick/Time_of_my_Life.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Time_of_my_Life.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
@@ -231,32 +231,32 @@ export class Home extends Component {
                                         <div class="row"> 
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/ArjitSingh/Bandeya.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Bandeya.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                <Link to="./songlistasjson"><img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/ArjitSingh/Chhapaak.jpg"/></Link>
+                                                <Link to="./songlistasjson"><img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Chhapaak.jpg"/></Link>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/ArjitSingh/Hardum_Humdum.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Hardum_Humdum.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/ArjitSingh/Khairiyat.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Khairiyat.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/ArjitSingh/Ve_Maahi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ve_Maahi.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ashabhosle/Chand_Gagani_Aala.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Chand_Gagani_Aala.jpg"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,32 +266,32 @@ export class Home extends Component {
                                     <div class="row"> 
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ashabhosle/Hridayi_Preet_Jagate.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Hridayi_Preet_Jagate.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ashabhosle/Lal_Shal_Jodi_Jarthai.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Lal_Shal_Jodi_Jarthai.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ashabhosle/Sadhi_Bholi_Meera.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Sadhi_Bholi_Meera.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Ashabhosle/Tumhi_Maza_Bajirao.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Tumhi_Maza_Bajirao.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/O_Saathi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/O_Saathi.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/Paniyon_Sa.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Paniyon_Sa.jpg"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -302,32 +302,32 @@ export class Home extends Component {
                                     <div class="row"> 
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/Pehli_Dafa.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Pehli_Dafa.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/Tera_Hua.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Tera_Hua.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/Tere_Liye.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/Tere_Liye.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2" >
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/O_Saathi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/O_Saathi.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/O_Saathi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/O_Saathi.jpg"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-2 ">
                                                 <div class="card border-0">
-                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/AtifAslam/O_Saathi.jpg"/>
+                                                    <img class="img-fluid" style={{borderRadius: "15px"}} src="./images/songImage/O_Saathi.jpg"/>
                                                 </div>
                                             </div>
                                         </div>

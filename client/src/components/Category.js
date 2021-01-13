@@ -8,7 +8,7 @@ export default function Category() {
     const [CatName,setCat] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:5555/api/songs')
+        axios.get('http://localhost:5000/api/songs')
         .then(res => {
             console.log(res)
             setSongs(res.data)
