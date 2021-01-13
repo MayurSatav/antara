@@ -156,7 +156,7 @@ export class ContactUs extends Component {
                         </div>
                         <div style={{ borderLeft: "2px solid #FC0254", height: "500px", marginLeft: "2%" }}></div>
                         <div class="card border-0" >
-                            <img src="./images/contact.png" style={{width:"500px",height:"auto"}}></img>
+                            <img src="./img/contact.png" style={{width:"500px",height:"auto"}}></img>
                             <div class="container">
                                 <div class="">
                                     <div id="googlemap" style={{width:"100%",height:"350px"}}></div>
