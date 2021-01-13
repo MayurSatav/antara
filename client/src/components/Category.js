@@ -8,7 +8,7 @@ export default function Category() {
     const [CatName,setCat] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:5555/api/songs')
+        axios.get('http://localhost:5000/api/songs')
         .then(res => {
             console.log(res)
             setSongs(res.data)
@@ -77,7 +77,7 @@ export default function Category() {
                     content.push(
                       <div key={song.id} class="mix col-lg-2 col-md-4 col-sm-6">
                           <div class="playlist-item">
-                              <img src={song.ArtistPath} alt=""/>
+                              <img src={song.ArtistPath} alt="" />
                               <h5>{song.Artist}</h5>
                           </div>
                       </div>

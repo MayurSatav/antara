@@ -29,7 +29,7 @@ export class Cart extends React.Component{
                     </div>
                     </th>
                     <td>
-                            <audio id="player" src="horse.mp3" controls controlsList="nodownload"></audio>
+                            <audio id="player" src={song.AudioPath} controls controlsList="nodownload"></audio>
                     </td>
                     <td class="border-0 align-middle"><strong>{song.Price}</strong></td>
                     <td class="border-0 align-middle"><strong>{song.Album}</strong></td>
