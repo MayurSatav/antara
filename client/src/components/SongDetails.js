@@ -30,7 +30,7 @@ class SongDetails extends Component {
                  <tbody>
                     <tr onClick={this.handleModal}>
                         <td >
-                            <img src="./images/lenka.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
+                            <img src="./images/SongImage/Blue_Skies.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
                             {this.props.name}
                         </td>
                         <td>
@@ -56,7 +56,7 @@ class SongDetails extends Component {
             <ModalNew
              name={this.props.name}
              show={this.state.modalShow}
-             image={'./imageDB/SongImg/Lenka/Blue_Skies.jpg'}
+             image={'./images/SongImage/Blue_Skies.jpg'}
              artist={'Lenka'}
              genre= {'Pop,indie pop'}
              released = {'23 September 2008'}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export class Welcome extends Component {
     render() {
@@ -10,9 +11,9 @@ export class Welcome extends Component {
                         <h1 style={{fontSize: "110px",color:"#FC0254"}}><span>An♪ara</span> </h1>
                         <h1>For Everyone</h1>
         
-                        <button type="button" class="btn explore" style={{borderRadius: "40px",backgroundColor: "#FC0254",color: "white"}}>
+                        <Link to = "./Home" type="button" class="btn explore" style={{borderRadius: "40px",backgroundColor: "#FC0254",color: "white"}}>
                             <span>Explore Antara</span>
-                        </button>
+                        </Link>
                        
                     </div>
                     <div class="col-sm-5">
