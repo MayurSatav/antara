@@ -30,7 +30,11 @@ class SongDetails extends Component {
                  <tbody>
                     <tr onClick={this.handleModal}>
                         <td >
+<<<<<<< HEAD
                             <img src="./images/SongImage/Blue_Skies.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
+=======
+                            <img src="./images/Artist/Lenka.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
+>>>>>>> c8dcfa08cf026d276a25a7fed031f282a49771fb
                             {this.props.name}
                         </td>
                         <td>

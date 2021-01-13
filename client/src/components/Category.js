@@ -77,7 +77,7 @@ export default function Category() {
                     content.push(
                       <div key={song.id} class="mix col-lg-2 col-md-4 col-sm-6">
                           <div class="playlist-item">
-                              <img src={song.ArtistPath} alt=""/>
+                              <img src={song.ArtistPath} alt="" />
                               <h5>{song.Artist}</h5>
                           </div>
                       </div>
