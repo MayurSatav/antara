@@ -1,4 +1,4 @@
-import {ADD_TO_CART, DELETE_FROM_CART,ADD_PL_TO_CART,DELETE_PL_FROM_CART, FETCH_CART_REQUEST,
+import {ADD_TO_CART, DELETE_FROM_CART, FETCH_CART_REQUEST,
     FETCH_CART_SUCCESS,
     FETCH_CART_FAILURE} from './action-types/Cart-actions'
 export const addToCart=(id)=>{
@@ -62,30 +62,6 @@ export const deleteFromCart=(id)=>{
   }
  
 }
-// export const addToWishlist=(id)=>{
-//     return{
-//         type:ADD_TO_WISHLIST,id
-//     }
-// }
-// export const deleteFromWishlist=(id)=>{
-//     //   alert("in add_to_cart");
-//        return{
-//            type:DELETE_FROM_WISHLIST,id
-//        }
-//    }
-   export const addToPlaylistCart=(id)=>{
-   // alert("in add-cart");
-    return {
-        type:ADD_PL_TO_CART,id
-    }
-}
-export const deleteFromPlaylistCart=(id)=>{
-    // alert("in add-cart");
-     return {
-         type:DELETE_PL_FROM_CART,id
-     }
- }
-
 
  
   const fetchCartRequest = () => {

@@ -147,7 +147,7 @@ export class Singup extends Component {
   render() {
     return (
       <div>
-        <TopNavWL></TopNavWL>
+       
         <div class="card" style={{ margin: "0 auto", float: "none", marginTop: "5%", width: "30%" }}>
           <h1 class="text-center" style={{ fontSize: "80px", color: "#FC0254" }}><span>An♪ara</span> </h1>
           <div class="card-body">

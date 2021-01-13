@@ -30,11 +30,7 @@ class SongDetails extends Component {
                  <tbody>
                     <tr onClick={this.handleModal}>
                         <td >
-<<<<<<< HEAD
-                            <img src="./images/SongImage/Blue_Skies.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
-=======
                             <img src="./images/Artist/Lenka.jpg" style={{width:"50px"}} class="rounded-circle" alt="Avatar"/> 
->>>>>>> c8dcfa08cf026d276a25a7fed031f282a49771fb
                             {this.props.name}
                         </td>
                         <td>
@@ -46,9 +42,9 @@ class SongDetails extends Component {
                                     <i class="fas fa-ellipsis-v"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#"  onClick={()=>{this.handleCart('s30')}}>Add to Cart</a>
-                                    <a class="dropdown-item" href="#" onClick={()=>{this.handleWishlist('s31')}}>Add to Wishlist</a>
-                                    <a class="dropdown-item" href="#">Add in playlist</a>
+                                    <a class="dropdown-item" href="#"  onClick={()=>{this.handleCart('s6')}}>Add to Cart</a>
+                                    <a class="dropdown-item" href="#" onClick={()=>{this.handleWishlist('s7')}}>Add to Wishlist</a>
+                                 {/*    <a class="dropdown-item" href="#">Add in playlist</a> */}
                                     <a class="dropdown-item" href="#">Share</a>
                                 </div>
                             </div>
