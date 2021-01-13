@@ -19,6 +19,13 @@ app.use((req, res, next) => {
   throw error;
 });
 
+app.use((req,res,next)=>{
+  res.setHeader('Acces-Control-Allow-Origin','*');
+  res.setHeader('Acces-Control-Allow-Methods','GET,POST,PUT,PATCH,DELETE');
+  res.setHeader('Acces-Contorl-Allow-Methods','Content-Type','Authorization');
+  next(); 
+})
+
 app.use((error, req, res, next) => {
     if (res.headerSent) {
         return next(error);
@@ -28,7 +35,7 @@ app.use((error, req, res, next) => {
 })
 
 mongoose.connect('mongodb://antara123:antara123@antara-shard-00-00.nnbzs.mongodb.net:27017,antara-shard-00-01.nnbzs.mongodb.net:27017,antara-shard-00-02.nnbzs.mongodb.net:27017/Antara?ssl=true&replicaSet=atlas-i5nxpp-shard-0&authSource=admin&retryWrites=true&w=majority')
-.then(() => {app.listen(5000)})
+.then(() => {app.listen(5555)})
 .catch(err => {console.log(err)})
 
 // mongoose.connect('mongodb+srv://anjali:anjali@antara.irp3a.mongodb.net/antara?retryWrites=true&w=majority')
