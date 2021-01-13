@@ -4,7 +4,7 @@ import {fetchCart,deleteFromCart} from './CartRedux/actions/CartActions'
 import Payment from './Payment';
 
 export class Cart extends React.Component{
-    //  totalAmount=this.props.cartState.total+10;
+      totalAmount=this.props.cartState.total+10;
     handleDelete=(id)=>{
         this.props.deleteFromCart(id);
     } 
@@ -164,10 +164,10 @@ export class Cart extends React.Component{
                                     <p class="font-italic mb-4">Shipping and additional costs are calculated based on values you have entered.</p>
                                     <ul class="list-unstyled mb-4">
                                     <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>₹{this.props.cartState.total}</strong></li>
-                                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and handling</strong><strong>₹10.00</strong></li>
+                                    <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and handling</strong><strong>₹0.00</strong></li>
                                     <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax</strong><strong>₹0.00</strong></li>
                                     <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
-                                        <h5 class="font-weight-bold">₹{this.totalAmount}</h5>
+                                        <h5 class="font-weight-bold">₹{this.props.cartState.total}</h5>
                                     </li>
                                     <li class=" py-3 border-bottom">
                                         <div class="form-check form-check-inline">
