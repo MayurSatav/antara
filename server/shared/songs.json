@@ -1,0 +1,410 @@
+[
+    {
+        "SongId": "s1",
+        "SongName": "Chhapaak",
+        "Artist": "Arijit Singh",
+        "Album": "Chhapaak",
+        "Year": 2020,
+        "Movie": "Chhapaak",
+        "Category": "Arijit Singh Songs",
+        "Genres": "Pop",
+        "Language": "Hindi",
+        "Price": 30
+    },
+    {
+        "SongId": "s2",
+        "SongName": "Hardum Humdum",
+        "Artist": [
+            "Arijit Singh",
+            "Shilpa Rao"
+        ],
+        "Album": "Ludo",
+        "Year": 2020,
+        "Movie": "Ludo",
+        "Category": "Arijit Singh Songs",
+        "Genres": "Rock",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song2.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/arijit.jpg"
+    },
+    {
+        "SongId": "s3",
+        "SongName": "Khairiyat",
+        "Artist": [
+            "Arijit Singh",
+            "Alyssa Mendonsa"
+        ],
+        "Album": "Chhichhore",
+        "Year": 2019,
+        "Movie": "Chhichhore",
+        "Category": "Arijit Singh Songs",
+        "Genres": "Jazz",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song3.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/arijit.jpg"
+    },
+    {
+        "SongId": "s4",
+        "SongName": "Ve Maahi",
+        "Artist": [
+            "Arijit Singh",
+            "Asees Kaur"
+        ],
+        "Album": "Kesari",
+        "Year": 2019,
+        "Movie": "Kesari",
+        "Category": "Arijit Singh Songs",
+        "Genres": "Folk",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song4.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/arijit.jpg"
+    },
+    {
+        "SongId": "s5",
+        "SongName": "Bandeya",
+        "Artist": [
+            "Arijit Singh",
+            "Jonita Gandhi"
+        ],
+        "Album": "Dil Juunglee",
+        "Year": 2018,
+        "Movie": "Dil Juunglee",
+        "Category": "Arijit Singh Songs",
+        "Genres": "Blues",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song5.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/arijit.jpg"
+    },
+    {
+        "SongId": "s6",
+        "SongName": "Payala Naman",
+        "Artist": "Shankar Mahadevan",
+        "Album": "Hridayanath",
+        "Year": 2012,
+        "Movie": "Hridayanath",
+        "Category": "Shankar Mahadevan Songs",
+        "Genres": "Pop",
+        "Language": "Marathi",
+        "Price": 20,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song1.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/shankar.jpg"
+    },
+    {
+        "SongId": "s7",
+        "SongName": "Jaadho",
+        "Artist": [
+            "Shankar Mahadevan",
+            "Shreya Ghoshal"
+        ],
+        "Album": "Dilwala",
+        "Year": 2013,
+        "Movie": "Dilwala",
+        "Category": "Shankar Mahadevan Songs",
+        "Genres": "Rock",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song2.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/shankar.jpg"
+    },
+    {
+        "SongId": "s8",
+        "SongName": "Aledaado Megha",
+        "Artist": [
+            "Shankar Mahadevan",
+            "Indu Nagaraj"
+        ],
+        "Album": "Nagarahavu",
+        "Year": 2016,
+        "Movie": "Nagarahavu",
+        "Category": "Shankar Mahadevan Songs",
+        "Genres": "Jazz",
+        "Language": "Marathi",
+        "Price": 20,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song3.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/shankar.jpg"
+    },
+    {
+        "SongId": "s9",
+        "SongName": "Dhak Dhak",
+        "Artist": [
+            "Shankar Mahadevan",
+            "K. S. Chithra"
+        ],
+        "Album": "Dhak Dhak",
+        "Year": 2003,
+        "Movie": "Dhak Dhak",
+        "Category": "Shankar Mahadevan Songs",
+        "Genres": "Folk",
+        "Language": "Malayalam",
+        "Price": 20,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song4.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/shankar.jpg"
+    },
+    {
+        "SongId": "s10",
+        "SongName": "Padey Padey",
+        "Artist": [
+            "Shankar Mahadevan",
+            "Haricharan"
+        ],
+        "Album": "Girgitle",
+        "Year": 2019,
+        "Movie": "Girgitle",
+        "Category": "Shankar Mahadevan Songs",
+        "Genres": "Blues",
+        "Language": "Hindi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song5.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/shankar.jpg"
+    },
+    {
+        "SongId": "s11",
+        "SongName": "Don't Let Me Fall",
+        "Artist": "Lenka",
+        "Album": "Shadows",
+        "Year": 2013,
+        "Movie": "Shadows",
+        "Category": "Lenka Songs",
+        "Genres": "Pop",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song1.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/lenka.jpg"
+    },
+    {
+        "SongId": "s12",
+        "SongName": "Heal",
+        "Artist": [
+            "Lenka",
+            "Stevie Wonder"
+        ],
+        "Album": "Attune",
+        "Year": 2017,
+        "Movie": "Attune",
+        "Category": "Lenka Songs",
+        "Genres": "Rock",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song2.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/lenka.jpg"
+    },
+    {
+        "SongId": "s13",
+        "SongName": "Roll With The Punches",
+        "Artist": [
+            "Lenka",
+            "Mumford"
+        ],
+        "Album": "Two",
+        "Year": 2016,
+        "Movie": "Two",
+        "Category": "Lenka Songs",
+        "Genres": "Jazz",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song3.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/lenka.jpg"
+    },
+    {
+        "SongId": "s14",
+        "SongName": "The Show",
+        "Artist": [
+            "Lenka",
+            "Nicki Minaj"
+        ],
+        "Album": "Two",
+        "Year": 2019,
+        "Movie": "Two",
+        "Category": "Lenka Songs",
+        "Genres": "Folk",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song4.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/lenka.jpg"
+    },
+    {
+        "SongId": "s15",
+        "SongName": "Blue Skies",
+        "Artist": [
+            "Lenka",
+            "Stevie Wonder"
+        ],
+        "Album": "The bridge Side",
+        "Year": 2020,
+        "Movie": "The bridge Side",
+        "Category": "Lenka Songs",
+        "Genres": "Blues",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song5.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/lenka.jpg"
+    },
+    {
+        "SongId": "s16",
+        "SongName": "As Real as You and Me",
+        "Artist": "Rihana",
+        "Album": "Home",
+        "Year": 2019,
+        "Movie": "",
+        "Category": "Rihana Songs",
+        "Genres": "Pop",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song1.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/rihana.jpg"
+    },
+    {
+        "SongId": "s17",
+        "SongName": "Heal",
+        "Artist": [
+            "Rihana",
+            "Robyn Fenty"
+        ],
+        "Album": "The Gifted",
+        "Year": 2018,
+        "Movie": "",
+        "Category": "Rihana Songs",
+        "Genres": "Rock",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song2.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/rihana.jpg"
+    },
+    {
+        "SongId": "s18",
+        "SongName": "Roll With The Punches",
+        "Artist": [
+            "Rihana",
+            "Priscilla Renea"
+        ],
+        "Album": "A Girl like Me",
+        "Year": 2016,
+        "Movie": "",
+        "Category": "Rihana Songs",
+        "Genres": "Jazz",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song3.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/rihana.jpg"
+    },
+    {
+        "SongId": "s19",
+        "SongName": "The Show",
+        "Artist": [
+            "Rihana",
+            "Kelson Camp"
+        ],
+        "Album": "Loud",
+        "Year": 2017,
+        "Movie": "",
+        "Category": "Rihana Songs",
+        "Genres": "Folk",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song4.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/rihana.jpg"
+    },
+    {
+        "SongId": "s20",
+        "SongName": "Blue Skies",
+        "Artist": [
+            "Rihana",
+            "Eric Florence"
+        ],
+        "Album": "Shakira",
+        "Year": 2020,
+        "Movie": "",
+        "Category": "Rihana Songs",
+        "Genres": "Blues",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song5.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/rihana.jpg"
+    },
+    {
+        "SongId": "s21",
+        "SongName": "She likes the Wind",
+        "Artist": "Patrick Swayze",
+        "Album": "Home",
+        "Year": 1987,
+        "Movie": "",
+        "Category": "Patrick Swayze Songs",
+        "Genres": "Pop",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song1.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/patrick.jpg"
+    },
+    {
+        "SongId": "s22",
+        "SongName": "Raising Heaven",
+        "Artist": [
+            "Patrick Swayze",
+            "Kelson Camp"
+        ],
+        "Album": "The Gifted",
+        "Year": 2001,
+        "Movie": "",
+        "Category": "Patrick Swayze Songs",
+        "Genres": "Rock",
+        "Language": "Punjabi",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song2.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/patrick.jpg"
+    },
+    {
+        "SongId": "s23",
+        "SongName": "Brothers",
+        "Artist": [
+            "Patrick Swayze",
+            "Jonathan Yip"
+        ],
+        "Album": "A Girl like Me",
+        "Year": 2019,
+        "Movie": "",
+        "Category": "Patrick Swayze Songs",
+        "Genres": "Jazz",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song3.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/patrick.jpg"
+    },
+    {
+        "SongId": "s24",
+        "SongName": "Ghost",
+        "Artist": [
+            "Patrick Swayze",
+            "Darnell Dalton"
+        ],
+        "Album": "Loud",
+        "Year": 2015,
+        "Movie": "",
+        "Category": "Patrick Swayze Songs",
+        "Genres": "Folk",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song4.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/patrick.jpg"
+    },
+    {
+        "SongId": "s25",
+        "SongName": "Time of my Life",
+        "Artist": [
+            "Patrick Swayze",
+            "Stevie Wonder"
+        ],
+        "Album": "Shakira",
+        "Year": 2020,
+        "Movie": "",
+        "Category": "Patrick Swayze Songs",
+        "Genres": "Blues",
+        "Language": "English",
+        "Price": 30,
+        "AudioPath": "C:/Users/HP/Desktop/music/SongsDB/song5.mp3",
+        "ImagePath": "C:/Users/HP/Desktop/music/ImageDB/patrick.jpg"
+    }
+]

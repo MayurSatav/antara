@@ -8,7 +8,8 @@ const userSchema = new Schema ({
     email: {type: String, required: true, unique: true},
     password: {type: String, required: true, minlength: 6},
     cart: {type: Array},
-    wishlist: {type: Array}
+    wishlist: {type: Array},
+    playlist: {type: Array}
 })
 
 userSchema.plugin(uniqueValidator)

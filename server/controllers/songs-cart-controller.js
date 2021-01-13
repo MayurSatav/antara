@@ -14,11 +14,12 @@ const client = new MongoClient(uri);
 //     "songid": "s3"
 // }
 
+
 //Function to get all songs present in cart
 const GET_CART = async (req, res, next) => {
     //get the userId
     const userId = req.params.userid
-    console.log(userId)
+    console.log("cart")
     //find user using userId
     let userDetails;
     try{
@@ -35,7 +36,7 @@ const GET_CART = async (req, res, next) => {
         const error = new HttpError('Cart is Empty', 200)
         return next(error)
     }
-   //["s28","s26"]
+   
     //Find all songs added to cart
     let songList = new Array() ; 
     let songId;
@@ -52,15 +53,13 @@ const GET_CART = async (req, res, next) => {
     }
     
     if(songList.length === 0){
-         throw new HttpError('Cart is Empty')
+        const error = new HttpError('Cart is Empty', 200)
+        return next(error)
     }
 
-    console.log(songList[0])
-    console.log("got req")
     //Return array of songs
-    //res.json({ok:"ok"})
-    res.json(songList)
-    //res.send(songList)
+    console.log(songList)
+    res.send(songList)
 }
 
 //Add song to Cart
@@ -80,8 +79,6 @@ const ADD_TO_CART = async (req, res, next) => {
     } catch(err){
         const error = new HttpError('Something is wrong', 500)
         return next(error)
-    }finally {
-        await client.close();
     }
     
     res.json({ok:"ok"})
@@ -89,7 +86,9 @@ const ADD_TO_CART = async (req, res, next) => {
 
 const DELETE_FROM_CART = async (req, res, next) => {
     //get the songid and userid
-    const {songid,userid} = req.body
+    const {songid, userid} = req.body
+    //const userId = req.params.userid
+
     //find the user and delete the song from cart
     let userDetails;
     let user

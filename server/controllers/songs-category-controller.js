@@ -21,14 +21,10 @@ const GET_ALL_SONGS = async (req, res, next) => {
 const GET_SONGS = async (req, res, next) => {
   
     Artist = ["Lenka","Arijit","Harrdy Sandhu","Shankar Mahadevan", "Rihana", "Patrick Swayze"]
-    Genres = ["Rock", "Pop", "Folk", "Blues", "Jazz"]
-    Language = ["Marathi", "Hindi", "English", "Tamil", "Punjabi"]
 
     const category = req.params.categoryValue
 
     const artist = Artist.find(a => a === category)
-    const genre = Genres.find(g => g === category)
-    const language = Language.find(l => l=== category)
 
     let songList = new Array() ; 
     if(!artist){
@@ -42,8 +38,8 @@ const GET_SONGS = async (req, res, next) => {
            console.log(err)
         }
     }
-   console.log(songList)
-    res.json(songList)
+   
+    res.json({songList})
 
 }
 

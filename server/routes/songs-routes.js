@@ -3,12 +3,14 @@ const express = require('express')
 const songsCartControllers = require('../controllers/songs-cart-controller')
 const songsWishlistControllers = require('../controllers/songs-wishlist-controller')
 const songsCategoryControllers = require('../controllers/songs-category-controller')
-
+const songsPlayListControllers = require('../controllers/songs-playlist-controller')
 const routes = express.Router()
 
 routes.get('/', songsCategoryControllers.GET_ALL_SONGS)
 
 routes.get('/cart/:userid', songsCartControllers.GET_CART)
+
+routes.get('/playlist/:userid', songsPlayListControllers.GET_PLAYLIST)
 
 routes.post('/cart/:userid/:songid', songsCartControllers.ADD_TO_CART)
 

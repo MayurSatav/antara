@@ -56,18 +56,18 @@ const GET_WISHLIST = async (req, res, next) => {
     }
 
     //Return array of songs
-    res.json(songList)
+    res.json({songList})
 }
 
 //Add song to wishlist
 const ADD_TO_WISHLIST = async (req, res, next) => {
     //get the songid and userid
-    const {songid,userid} = req.body
-//const userId = req.params.userid
+    const {songid} = req.body
+    const userId = req.params.userid
 
     //Find the user and add song to the wishlist
     try{
-       await User.findByIdAndUpdate({_id:userid},{$push: { wishlist: songid }})
+       await User.findByIdAndUpdate({_id:userId},{$push: { wishlist: songid }})
     } catch(err){
         const error = new HttpError('Something is wrong', 500)
         return next(error)
@@ -78,11 +78,12 @@ const ADD_TO_WISHLIST = async (req, res, next) => {
 
 const DELETE_FROM_WISHLIST = async (req, res, next) => {
     //get the songid and userid
-    const {songid,userid} = req.body
-   
+    const {songid} = req.body
+    const userId = req.params.userid
+
     //find the user and delete the song from wishlist
     try{
-      await User.findByIdAndUpdate({_id:userid},{$pull: { wishlist: songid }})
+      await User.findByIdAndUpdate({_id:userId},{$pull: { wishlist: songid }})
     } catch(err){
         const error = new HttpError('Something is wrong', 500)
         return next(error)
